@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos de interaccion JS</title>
+</head>
+<body>
+    <p id="frase">
+        Haz click en uno de los 3 textos de abajo...
+    </p>
+    <a onclick="elegirPokemon('Pikachu')">Pikachu</a>
+    <a onclick="elegirPokemon('Squitrtle')">Squirtle</a>
+    <a onclick="elegirPokemon('Bulbasaur')">Bulbasaur</a>
+    <script>
+        function elegirPokemon(pokemon) {
+            document.getElementById("frase") .innerHTML = '¡' + pokemon + ', yo te elijo!'; 
+        }
+    </script>
+</body>
+</html>

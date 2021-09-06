@@ -1,0 +1,58 @@
+#body {
+    border: 30px;
+}
+header {
+    padding: 0 5%; 
+    background-color: rgb(141, 141, 141);
+    color: white;
+}
+#main{
+    margin: 60px;
+}
+#tittulo {
+    font-size: 70px;
+}
+header > h1 {
+    display: inline-block;
+    margin-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#titulo {
+    text-align: center;
+}
+nav > a {
+    text-decoration: none;
+    transition: background-color .5s;
+    display: inline;
+    display: block;
+    padding: 8px;
+    font-size: 20px;
+}
+nav > a:hover {
+    background-color: lightcyan;
+}
+#logo{
+    width: 60px;
+    text-align: center;
+}
+#imagen{
+    width: 800px;
+}
+#frase{
+    display: inline-block;
+    width: 200px;
+   
+}
+div > li > a {
+    text-decoration: none;
+    color: black;
+}
+div > li > a:hover {
+    color: rgb(43, 179, 233);
+}
+#definicion > p {
+    float: left;
+    
+}
+center {
+   
